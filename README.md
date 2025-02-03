@@ -69,4 +69,3 @@ To automate the prediction pipeline with a cron job, add the following line to y
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-```
