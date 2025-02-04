@@ -69,4 +69,6 @@ for index, row in operational_data.iterrows():
 conn.commit()
 conn.close()
 
+subprocess.run(["python3", "scripts/severity_calculator.py"])
+
 print("Pipeline executed successfully.")
